@@ -1,5 +1,4 @@
 {
- "start_url": "index.htm",
  "icons": [
   {
    "src": "misc/icon150.png",
@@ -39,7 +38,8 @@
  ],
  "background_color": "#FFFFFF",
  "display": "fullscreen",
- "theme_color": "#FFFFFF",
+ "start_url": "index.htm",
  "description": "MY Virtual Store Community แห่งใหม่ ของสายสร้างสรรค์ มาร่วมคอนเนคไอเดีย ไปด้วยกัน พร้อมกิจกรรมสนุกๆ รับสิทธิพิเศษมากมาย Always Connected มายคอนเนคได้ทุกไอเดีย",
- "name": "MY WORLD STORE"
+ "name": "MY WORLD STORE",
+ "theme_color": "#FFFFFF"
 }
