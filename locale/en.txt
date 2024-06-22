@@ -3,61 +3,61 @@
 ## Action
 
 ### URL
-LinkBehaviour_E8ECCD07_C1CA_C7A2_41D4_4661DA6E091A.source = http://mybeer-point.com/
-LinkBehaviour_D4C3B812_C945_F3B9_41DC_01D0C7C7F381.source = https://mybeer-point.com/
-LinkBehaviour_D4C01E11_C942_6FBB_41E7_1E5BA61036BE.source = https://mybeer-point.com/
-LinkBehaviour_D485A506_CE84_0F23_41E5_783EC2E787F1.source = https://mybeer-point.com/
-LinkBehaviour_D618BB1A_CE87_FB23_41C7_CDA55D094C34.source = https://mybeer-point.com/
-LinkBehaviour_D697F779_CE84_0BE1_41C9_3BBF361E4BDD.source = https://mybeer-point.com/
 WebFrame_63C08005_0BC4_54F5_4195_BD22CA13E86A.url = https://shop.line.me/@300hsusg/product/1003928433
-LinkBehaviour_69385769_48F2_8880_41B5_16B1B6AED6FD.source = https://shop.line.me/@300hsusg/product/1003928433
 WebFrame_63C08005_0BC4_54F5_4195_BD22CA13E86A_mobile.url = https://shop.line.me/@300hsusg/product/1003928433
+LinkBehaviour_69385769_48F2_8880_41B5_16B1B6AED6FD.source = https://shop.line.me/@300hsusg/product/1003928433
 WebFrame_55B37FE3_0BC4_4B2C_4191_7AD74B7AC63D_mobile.url = https://shop.line.me/@300hsusg/product/1004246876
 WebFrame_55B37FE3_0BC4_4B2C_4191_7AD74B7AC63D.url = https://shop.line.me/@300hsusg/product/1004246876
-LinkBehaviour_71A152AB_6FEC_BA91_41B4_21BB824E980A.source = https://shop.line.me/@300hsusg/product/1005658242
-LinkBehaviour_88905D86_91D3_E73B_41D3_A5F3EBC3B5AE.source = https://shop.line.me/@300hsusg/product/1005658242
-LinkBehaviour_729E41F5_6FEF_F671_41CF_29A4302AEAB4.source = https://shop.line.me/@300hsusg/product/1005658242
-LinkBehaviour_883C91F7_91D3_9ED9_41D1_8E578E6907CA.source = https://shop.line.me/@300hsusg/product/1005658242
-LinkBehaviour_885D0369_91D3_63C9_41D6_A0D750959579.source = https://shop.line.me/@300hsusg/product/1005658242
+WebFrame_15345576_0BDC_5F14_41A4_CC7D2650C87A.url = https://shop.line.me/@300hsusg/product/1005658181
+WebFrame_15345576_0BDC_5F14_41A4_CC7D2650C87A_mobile.url = https://shop.line.me/@300hsusg/product/1005658181
 LinkBehaviour_74B3C0AC_6FF3_7697_41A2_F27AD96D5FCC.source = https://shop.line.me/@300hsusg/product/1005658242
+LinkBehaviour_88905D86_91D3_E73B_41D3_A5F3EBC3B5AE.source = https://shop.line.me/@300hsusg/product/1005658242
+LinkBehaviour_883C91F7_91D3_9ED9_41D1_8E578E6907CA.source = https://shop.line.me/@300hsusg/product/1005658242
+LinkBehaviour_71A152AB_6FEC_BA91_41B4_21BB824E980A.source = https://shop.line.me/@300hsusg/product/1005658242
+LinkBehaviour_729E41F5_6FEF_F671_41CF_29A4302AEAB4.source = https://shop.line.me/@300hsusg/product/1005658242
+LinkBehaviour_885D0369_91D3_63C9_41D6_A0D750959579.source = https://shop.line.me/@300hsusg/product/1005658242
 WebFrame_437D0ECF_0BFB_CD74_41A0_E35F066FF6A0.url = https://shop.line.me/@300hsusg/product/1005658349
-WebFrame_5AF88486_0BC4_3DF7_4191_E6AD79C99BE0_mobile.url = https://shop.line.me/@300hsusg/product/1005658349
 WebFrame_5AF88486_0BC4_3DF7_4191_E6AD79C99BE0.url = https://shop.line.me/@300hsusg/product/1005658349
+WebFrame_5AF88486_0BC4_3DF7_4191_E6AD79C99BE0_mobile.url = https://shop.line.me/@300hsusg/product/1005658349
 WebFrame_437D0ECF_0BFB_CD74_41A0_E35F066FF6A0_mobile.url = https://shop.line.me/@300hsusg/product/1005658349
+WebFrame_5A314CB4_0BFB_CD2B_4195_5F6382907CEE_mobile.url = https://shop.line.me/@300hsusg/product/1005658359
 WebFrame_5A314CB4_0BFB_CD2B_4195_5F6382907CEE.url = https://shop.line.me/@300hsusg/product/1005658359
 WebFrame_4298709F_0BFC_3514_417E_0269A61667BD.url = https://shop.line.me/@300hsusg/product/1005658359
-WebFrame_5A314CB4_0BFB_CD2B_4195_5F6382907CEE_mobile.url = https://shop.line.me/@300hsusg/product/1005658359
 WebFrame_4298709F_0BFC_3514_417E_0269A61667BD_mobile.url = https://shop.line.me/@300hsusg/product/1005658359
-WebFrame_15345576_0BDC_5F14_41A4_CC7D2650C87A_mobile.url = https://shop.line.me/@300hsusg/product/1005658368
-WebFrame_15345576_0BDC_5F14_41A4_CC7D2650C87A.url = https://shop.line.me/@300hsusg/product/1005658368
+WebFrame_1B0DFA43_301D_57FB_41B3_3AD1F5685A8E.url = https://shop.line.me/@300hsusg/product/1005658368
+WebFrame_097D20E3_301F_D4B4_41A9_1260AC0E5F5F_mobile.url = https://shop.line.me/@300hsusg/product/1005658368
 WebFrame_1446DAC5_0BDC_D574_4180_5FE78F69DA43.url = https://shop.line.me/@300hsusg/product/1005658409
 WebFrame_1446DAC5_0BDC_D574_4180_5FE78F69DA43_mobile.url = https://shop.line.me/@300hsusg/product/1005658409
-LinkBehaviour_2EC9B08A_959C_1D90_41DF_899FD419FF49.source = https://shop.line.me/@300hsusg/product/1005658438
 LinkBehaviour_2D811314_959C_1CB0_41C9_4A58366075B1.source = https://shop.line.me/@300hsusg/product/1005658438
-LinkBehaviour_7155A53B_6FED_BFF1_41D8_7E57498E54E5.source = https://shop.line.me/@300hsusg/product/1005760730
+LinkBehaviour_2EC9B08A_959C_1D90_41DF_899FD419FF49.source = https://shop.line.me/@300hsusg/product/1005658438
 LinkBehaviour_722DE5A4_6FED_BE97_41D8_B7D410385C87.source = https://shop.line.me/@300hsusg/product/1005760730
+LinkBehaviour_7155A53B_6FED_BFF1_41D8_7E57498E54E5.source = https://shop.line.me/@300hsusg/product/1005760730
+WebFrame_0C4219E6_30F7_74BD_41BD_DD9BF466A340.url = https://shop.line.me/@300hsusg/product/1005760730
+WebFrame_0E6C4A4C_30FE_D78C_41C3_001899D6651A_mobile.url = https://shop.line.me/@300hsusg/product/1005760730
+WebFrame_0CC39636_30F7_3F9D_41A6_D9041054CE5D.url = https://shop.line.me/@300hsusg/product/1005903656
 LinkBehaviour_72CDE20A_6FEC_9593_41D3_90AD47901943.source = https://shop.line.me/@300hsusg/product/1005903656
+WebFrame_0E496F1A_30FD_2D94_41BE_F5EDE08CB8BA_mobile.url = https://shop.line.me/@300hsusg/product/1005903656
 LinkBehaviour_7274B8D6_6FF3_96B3_41C3_14D4DDD0A478.source = https://shop.line.me/@300hsusg/product/1005903656
-WebFrame_1460D882_0BDC_35EC_4183_7ED185D2C47B_mobile.url = https://shop.line.me/@300hsusg/product/1005903774
 WebFrame_1460D882_0BDC_35EC_4183_7ED185D2C47B.url = https://shop.line.me/@300hsusg/product/1005903774
-WebFrame_57F0938B_0BFB_DBFC_41A3_24720DDEAF6D_mobile.url = https://shop.line.me/@300hsusg/product/1005903821
+WebFrame_1460D882_0BDC_35EC_4183_7ED185D2C47B_mobile.url = https://shop.line.me/@300hsusg/product/1005903774
 WebFrame_57F0938B_0BFB_DBFC_41A3_24720DDEAF6D.url = https://shop.line.me/@300hsusg/product/1005903821
+WebFrame_57F0938B_0BFB_DBFC_41A3_24720DDEAF6D_mobile.url = https://shop.line.me/@300hsusg/product/1005903821
 WebFrame_56A4CD3B_0BC4_4F1C_41A6_53963027EEE9.url = https://shop.line.me/@300hsusg/product/1005903838
 WebFrame_56A4CD3B_0BC4_4F1C_41A6_53963027EEE9_mobile.url = https://shop.line.me/@300hsusg/product/1005903838
-WebFrame_052B7FFA_0BCC_4B1C_41A1_61ECC494A841.url = https://shop.line.me/@300hsusg/product/1005903869
 WebFrame_052B7FFA_0BCC_4B1C_41A1_61ECC494A841_mobile.url = https://shop.line.me/@300hsusg/product/1005903869
-WebFrame_1501F356_0BDC_7B17_4179_15F70F016713.url = https://shop.line.me/@300hsusg/product/1005903878
+WebFrame_052B7FFA_0BCC_4B1C_41A1_61ECC494A841.url = https://shop.line.me/@300hsusg/product/1005903869
 WebFrame_1501F356_0BDC_7B17_4179_15F70F016713_mobile.url = https://shop.line.me/@300hsusg/product/1005903878
+WebFrame_1501F356_0BDC_7B17_4179_15F70F016713.url = https://shop.line.me/@300hsusg/product/1005903878
 WebFrame_34628E72_0BCC_CD2F_4199_F3C384D4E05C_mobile.url = https://shop.line.me/@300hsusg/product/1006348926
 WebFrame_34628E72_0BCC_CD2F_4199_F3C384D4E05C.url = https://shop.line.me/@300hsusg/product/1006348926
 WebFrame_86EA4B2C_0BC4_CB34_4130_B5FD7E006178.url = https://shop.line.me/@myworld/product/1003928433
 WebFrame_86EA4B2C_0BC4_CB34_4130_B5FD7E006178_mobile.url = https://shop.line.me/@myworld/product/1003928433
-LinkBehaviour_6218C80B_4BD2_B880_41B6_F2C94E95B177.source = https://web.facebook.com/myworldstore.th
+WebFrame_13C82C39_39DA_2395_41CB_6B4D7CC786F2.url = https://www.facebook.com/myworldstore.th
 LinkBehaviour_E203F4B5_F4A4_6B6D_41E8_3E368FC5C1E5.source = https://www.myworld-store.com/
 LinkBehaviour_1E341A8D_1027_1297_4191_92987EE4B86F.source = https://www.myworld-store.com/
-LinkBehaviour_6F0D257C_4BD2_8880_41C6_BC45E72DEC12.source = https://www.tiktok.com/@myworld.creator
+WebFrame_021E7F0D_3384_5D56_41A5_1FFCFCDED902.url = https://www.tiktok.com/@myworld.creator
+WebFrame_0EB5D8A9_39DE_E4B5_41B5_4C2229FCECD6.url = https://www.youtube.com/@MYWORLDCLUB
 LinkBehaviour_6C3B0940_48F6_B880_41C6_4B6C4A763866.source = https://www.youtube.com/@MYWORLDCLUB
-LinkBehaviour_6CB5B54E_4BB2_8880_41C6_8A57EA015A8C.source = https://www.youtube.com/@MYWORLDCLUB
 
 ## Hotspot
 
@@ -74,32 +74,32 @@ HotspotPanoramaOverlayArea_6FC5CE13_4BD2_F880_41C9_637742128CA0.toolTip = Tiktok
 ## Media
 
 ### Image
-imlevel_EFC9DCF8_E10D_DE7D_41B0_15AFC68FC1CE.url = media/panorama_E056505F_C0DA_5DA2_41E5_8A6041EAF7B0_HS_g8lszjal_en.png
-imlevel_EFC50E01_E10D_DD8C_41B1_E78377D71ACD.url = media/panorama_E3297F54_C0CF_C3A6_41DC_602FBF17DAD4_HS_wnd34ked_en.png
+imlevel_22737569_34F5_ED65_41B2_51E56932FD91.url = media/panorama_214E0C3C_34EE_A2E2_41C8_F812E5217A0C_HS_g8lszjal_en.png
+imlevel_2B072245_3A34_047B_41AD_D7A6C7BF91D2.url = media/panorama_34858BF0_3A2C_0419_41C7_A12BBA593AA6_HS_wnd34ked_en.png
 
 ### Title
-panorama_E3297F54_C0CF_C3A6_41DC_602FBF17DAD4.label = 1
+panorama_34858BF0_3A2C_0419_41C7_A12BBA593AA6.label = 1
 panorama_E0B0146D_C0FD_C666_41E4_82D7D6BE2C3D.label = 1
-panorama_EDDA5497_C943_9CA7_41BE_658AEDC356AF.label = 10
-panorama_E1D9EBD9_C0DA_C2AE_41E1_4E92154CA425.label = 11
-panorama_E2F891A0_C0CE_FE9E_41E3_38DFAD8DB980.label = 2
+panorama_25B3B805_34D5_A2AD_41C1_7309FA6B0D97.label = 10
+panorama_25854BFF_34D5_A55E_41BD_8BAAA6BB8EC2.label = 11
+panorama_3408B891_3A2C_0418_41B2_EEDF94588EAF.label = 2
 panorama_DFEFDE4D_C0FA_45A6_41CB_FB73D330290F.label = 2
-panorama_DF05D9BF_C0FE_CEE2_41D7_403117CB51A6.label = 3
-panorama_E3C0BD61_C057_C79E_41E3_400EA4A7C15E.label = 3
-panorama_DF195A90_C0F7_C2BE_419F_CD5BEF9FA224.label = 4
-panorama_E2055AB8_C056_42EE_4186_21C66F78A274.label = 4
-panorama_DF0596ED_C0F6_4266_41C6_C7CA27ECCB82.label = 4.1
-panorama_E5C50FE5_C05B_C266_41C4_53BD8C4DD232.label = 5
-panorama_DE68BD09_C0D6_47AE_41BE_9208067F1BE4.label = 7
-panorama_E056505F_C0DA_5DA2_41E5_8A6041EAF7B0.label = 8
+panorama_26FB9C6A_34D6_A366_41C9_E287E01D370B.label = 3
+panorama_37DC0AF5_3A2C_0418_41C3_6A0ED5FAB845.label = 3
+panorama_25F008C6_34D6_E3AE_41C6_095BA5F5B19C.label = 4
+panorama_37F79AAB_3A2C_040F_41CA_721715504B9D.label = 4
+panorama_25F3B476_34D6_E36F_41C8_3ECBAFDE3790.label = 4.1
+panorama_25505F0D_34EA_9EA2_41C6_5F3B7F01EAFF.label = 5
+panorama_25E4ABF5_34D6_A562_41B4_17E7AB9EC2BE.label = 7
+panorama_214E0C3C_34EE_A2E2_41C8_F812E5217A0C.label = 8
 video_D3301E00_C945_AF99_41E3_0819895197B0.label = All
 video_6C876761_486E_8880_41C6_D703A5394109.label = MYSHOP01
 
 ### Video
-videolevel_04B67F23_14BF_EE44_41A7_D6768CB21FA6.url = media/video_6C876761_486E_8880_41C6_D703A5394109_en.mp4
-videolevel_04B67F23_14BF_EE44_41A7_D6768CB21FA6.posterURL = media/video_6C876761_486E_8880_41C6_D703A5394109_poster_en.jpg
-videolevel_04B63F45_14BF_EECC_41B0_0F7A85230027.url = media/video_D3301E00_C945_AF99_41E3_0819895197B0_en.mp4
-videolevel_04B63F45_14BF_EECC_41B0_0F7A85230027.posterURL = media/video_D3301E00_C945_AF99_41E3_0819895197B0_poster_en.jpg
+videolevel_2B09AC09_3A2C_1C0B_41A7_84B12994CD51.url = media/video_6C876761_486E_8880_41C6_D703A5394109_en.mp4
+videolevel_2B09AC09_3A2C_1C0B_41A7_84B12994CD51.posterURL = media/video_6C876761_486E_8880_41C6_D703A5394109_poster_en.jpg
+videolevel_2B082C31_3A2C_1C1B_41B3_99B8513A85BA.url = media/video_D3301E00_C945_AF99_41E3_0819895197B0_en.mp4
+videolevel_2B082C31_3A2C_1C1B_41B3_99B8513A85BA.posterURL = media/video_D3301E00_C945_AF99_41E3_0819895197B0_poster_en.jpg
 
 ### Video Subtitles
 

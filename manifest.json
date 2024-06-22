@@ -1,4 +1,5 @@
 {
+ "theme_color": "#FFFFFF",
  "icons": [
   {
    "src": "misc/icon150.png",
@@ -37,7 +38,6 @@
   }
  ],
  "display": "fullscreen",
- "theme_color": "#FFFFFF",
  "description": "MY Virtual Store Community แห่งใหม่ ของสายสร้างสรรค์ มาร่วมคอนเนคไอเดีย ไปด้วยกัน พร้อมกิจกรรมสนุกๆ รับสิทธิพิเศษมากมาย Always Connected มายคอนเนคได้ทุกไอเดีย",
  "background_color": "#FFFFFF",
  "start_url": "index.htm",
