@@ -1,7 +1,4 @@
 {
- "display": "fullscreen",
- "start_url": "index.htm",
- "description": "MY Virtual Store Community แห่งใหม่ ของสายสร้างสรรค์ มาร่วมคอนเนคไอเดีย ไปด้วยกัน พร้อมกิจกรรมสนุกๆ รับสิทธิพิเศษมากมาย Always Connected มายคอนเนคได้ทุกไอเดีย",
  "icons": [
   {
    "src": "misc/icon150.png",
@@ -39,7 +36,10 @@
    "type": "image/png"
   }
  ],
- "name": "MY WORLD STORE",
+ "display": "fullscreen",
+ "description": "MY Virtual Store Community แห่งใหม่ ของสายสร้างสรรค์ มาร่วมคอนเนคไอเดีย ไปด้วยกัน พร้อมกิจกรรมสนุกๆ รับสิทธิพิเศษมากมาย Always Connected มายคอนเนคได้ทุกไอเดีย",
  "background_color": "#FFFFFF",
- "theme_color": "#FFFFFF"
+ "theme_color": "#FFFFFF",
+ "name": "MY WORLD STORE",
+ "start_url": "index.htm"
 }
