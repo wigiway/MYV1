@@ -67,55 +67,28 @@
     <div id="viewer" class="fill-viewport"></div>
     <script>
         function GetCoin(point, scene) {
-            // เช็ก
             alert(point + ": " + scene);
             localStorage.setItem('tourPosition', scene);
 
             if (scene !== "") {
-                // คุณสามารถเพิ่มการทำงานเพิ่มเติมที่นี่
+                localStorage.setItem('tourPosition', scene);
             }
-
-            // เปิดหน้า social แทบใหม่ "point_3" tiktok , "point_4" facebook , "point_3" youtube
-            /*
-            if (point === "point_3" || point === "point_4" || point === "point_5") {
-                window.open(url, '_blank');
-            }
-            */
         }
 
         function loadSavedPosition() {
             const savedPosition = localStorage.getItem('tourPosition');
             if (savedPosition && savedPosition !== "") {
-                // ตรวจสอบว่า iframe พร้อมใช้งานหรือไม่
-                const iframe = document.getElementById('viewer').getElementsByTagName('iframe')[0];
-                if (iframe && iframe.contentWindow) {
-                    iframe.contentWindow.postMessage({ type: 'setMediaByName', position: savedPosition }, '*');
+                alert("Loading saved position: " + savedPosition);
+                // เรียกใช้ setMediaByName โดยตรง
+                if (typeof setMediaByName === 'function') {
+                    setMediaByName(savedPosition);
+                } else {
+                    console.error('setMediaByName is not defined');
                 }
             }
         }
 
-        // รอให้ iframe โหลดเสร็จสมบูรณ์ก่อน
-        window.onload = function() {
-            const iframe = document.createElement('iframe');
-            iframe.src = 'https://myv-1.vercel.app'; // ใส่ URL ของทัวร์ 3DVista ที่ถูกต้องที่นี่
-            iframe.style.width = '100%';
-            iframe.style.height = '100%';
-            iframe.onload = loadSavedPosition;
-            document.getElementById('viewer').appendChild(iframe);
-        };
-
-        // รับข้อความจาก iframe
-        window.addEventListener('message', function(event) {
-            if (event.data && event.data.type === 'setMediaByName') {
-                setMediaByName(event.data.position);
-            }
-        });
-
-        function setMediaByName(position) {
-            // ฟังก์ชันนี้ควรอยู่ใน script.js หรือในไฟล์ที่รวมกับทัวร์ 3DVista
-            // ตัวอย่างการจำลอง
-            console.log('Changing position to:', position);
-        }
+        window.onload = loadSavedPosition;
     </script>
 </body>
 </html>
