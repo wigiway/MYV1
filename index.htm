@@ -69,12 +69,18 @@
         function GetCoin(point, scene) {
             // เช็ก
             alert(point + ": " + scene);
-
+            localStorage.setItem('tourPosition', scene);
 
             if (scene !== "") {
-                localStorage.setItem('tourPosition', scene);
+                // คุณสามารถเพิ่มการทำงานเพิ่มเติมที่นี่
             }
 
+            // เปิดหน้า social แทบใหม่ "point_3" tiktok , "point_4" facebook , "point_3" youtube
+            /*
+            if (point === "point_3" || point === "point_4" || point === "point_5") {
+                window.open(url, '_blank');
+            }
+            */
         }
 
         function loadSavedPosition() {
@@ -91,7 +97,7 @@
         // รอให้ iframe โหลดเสร็จสมบูรณ์ก่อน
         window.onload = function() {
             const iframe = document.createElement('iframe');
-            iframe.src = 'URL_TO_YOUR_3DVISTA_TOUR';
+            iframe.src = 'https://myv-1.vercel.app'; // ใส่ URL ของทัวร์ 3DVista ที่ถูกต้องที่นี่
             iframe.style.width = '100%';
             iframe.style.height = '100%';
             iframe.onload = loadSavedPosition;
