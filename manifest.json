@@ -36,10 +36,10 @@
    "type": "image/png"
   }
  ],
- "background_color": "#FFFFFF",
- "display": "fullscreen",
  "start_url": "index.htm",
+ "display": "fullscreen",
+ "description": "MY Virtual Store Community แห่งใหม่ ของสายสร้างสรรค์ มาร่วมคอนเนคไอเดีย ไปด้วยกัน พร้อมกิจกรรมสนุกๆ รับสิทธิพิเศษมากมาย Always Connected มายคอนเนคได้ทุกไอเดีย",
  "theme_color": "#FFFFFF",
- "name": "MY WORLD STORE",
- "description": "MY Virtual Store Community แห่งใหม่ ของสายสร้างสรรค์ มาร่วมคอนเนคไอเดีย ไปด้วยกัน พร้อมกิจกรรมสนุกๆ รับสิทธิพิเศษมากมาย Always Connected มายคอนเนคได้ทุกไอเดีย"
+ "background_color": "#FFFFFF",
+ "name": "MY WORLD STORE"
 }
