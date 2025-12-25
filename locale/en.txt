@@ -1,12 +1,33 @@
 #: locale=en
 
+## Action
+
+### URL
+LinkBehaviour_42797EEB_5512_49E0_41D1_C4942FE79A8B.source = https://www.udtrucks.com/thailand/dealers/find-dealer
+PopupWebFrameBehaviour_7D1295B7_5536_5861_41B5_4113BBFEAC49.url = //www.youtube.com/embed/UcewELMPhYw?autoplay=1&mute=1&loop=1&playlist=UcewELMPhYw
+PopupWebFrameBehaviour_783EF9DB_5536_4820_41CD_1262B9CEE776.url = //www.youtube.com/embed/UcewELMPhYw?autoplay=1&mute=1&loop=1&playlist=UcewELMPhYw
+PopupWebFrameBehaviour_7DFBAB9F_5535_C821_41BD_61E69D5E22D7.url = //www.youtube.com/embed/UcewELMPhYw?autoplay=1&mute=1&loop=1&playlist=UcewELMPhYw
+
+## Hotspot
+
+### URL
+FramePanoramaOverlay_70A7DDB7_5513_C861_41C0_E07CC81B9DA8.url = //www.youtube.com/embed/UcewELMPhYw?autoplay=1&mute=1&loop=1&playlist=UcewELMPhYw
+
 ## Media
 
 ### Title
-panorama_5FED5EAC_533A_77C4_41CB_FB10363D41C0.label = v_1
-panorama_5E73DA57_5339_BF45_41C1_0385DEC2FB18.label = v_2
-panorama_5E0DE23B_5339_8ECC_41D1_1AFF75048357.label = v_3
-panorama_5E02BA73_5339_9F5C_41CA_3FD4A4BF9CD1.label = v_4
+panorama_58DAA706_54EE_7823_41BE_A0E156495F56.label = v_1
+panorama_58B03F89_54EE_4821_41D2_63512DD958CA.label = v_2
+panorama_58B2E739_54EF_D860_41C8_EBB11546D18D.label = v_3
+panorama_58AE3828_54EF_C860_41C4_2A4D83011AC8.label = v_4
+
+## Skin
+
+### Button
+Button_4244D287_54EE_D820_41CC_BCD2F563C3EC.label = ค้นหาศูนย์บริการ
+
+### Label
+Label_4CF7C015_54EE_5820_41CD_81116B20DED1.text = สนใจสามารถติดต่อศูนย์บริการ
 
 ## Tour
 
