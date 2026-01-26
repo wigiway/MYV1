@@ -16,18 +16,24 @@ FramePanoramaOverlay_70A7DDB7_5513_C861_41C0_E07CC81B9DA8.url = //www.youtube.co
 ## Media
 
 ### Title
-panorama_B68C2C59_BA04_B8F5_41DA_B8C3F3B33D56.label = v_1
-panorama_B6959A5F_BA04_58EE_41DE_F5733E336FD2.label = v_2
-panorama_B6D354C0_BA04_69D2_41E2_B0EC098568EF.label = v_3
-panorama_B7757F4A_BA3B_D8D7_41D1_78D33A6DB50E.label = v_4
+panorama_F567910C_F97F_87E8_41E6_AD696BA69EBF.label = v_1
+panorama_F5988FA0_F97E_9AD8_41EB_26861FC199F5.label = v_2
+panorama_F5C19D7E_F97E_9E28_41D0_92931E96B52A.label = v_3
+panorama_F5C09554_F97E_8E78_41EE_646916A05D1E.label = v_4
 
 ## Skin
 
 ### Button
 Button_4244D287_54EE_D820_41CC_BCD2F563C3EC.label = ค้นหาศูนย์บริการ
 
+### Image
+Image_F6FF572F_F981_8A28_41CD_80FD27C7FA8B.url = skin/Image_F6FF572F_F981_8A28_41CD_80FD27C7FA8B_en.png
+
 ### Label
 Label_4CF7C015_54EE_5820_41CD_81116B20DED1.text = สนใจสามารถติดต่อศูนย์บริการ
+
+### Multiline Text
+HTMLText_F65AE970_F982_8638_41B4_B08E4D6B3B3E.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;font-size:37px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:37px;"><B>Features</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:37px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="line-height:160%;text-align:left;font-size:18px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:18px;"><B>1.Drive</B></SPAN></SPAN></DIV><DIV STYLE="line-height:160%;text-align:left;font-size:18px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:18px;"><B>2.Drive</B></SPAN></SPAN></DIV><DIV STYLE="line-height:160%;text-align:left;font-size:18px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:18px;"><B>3.Drive</B></SPAN></SPAN></DIV><DIV STYLE="line-height:160%;text-align:left;font-size:18px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:18px;"><B>4.Drive</B></SPAN></SPAN></DIV><DIV STYLE="line-height:160%;text-align:left;font-size:18px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:18px;"><B>5.Drive</B></SPAN></SPAN></DIV><DIV STYLE="line-height:160%;text-align:left;font-size:18px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:18px;"><B>6.Drive</B></SPAN></SPAN></DIV><DIV STYLE="line-height:160%;text-align:left;font-size:18px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:18px;"><B>7.Drive</B></SPAN></SPAN></DIV><DIV STYLE="line-height:160%;text-align:left;font-size:18px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:18px;"><B>8.Drive</B></SPAN></SPAN></DIV><DIV STYLE="line-height:160%;text-align:left;font-size:18px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:18px;"><B>9.Drive</B></SPAN></SPAN></DIV><DIV STYLE="line-height:160%;text-align:left;font-size:18px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:18px;"><B>10.Drive</B></SPAN></SPAN></DIV><DIV STYLE="line-height:160%;text-align:left;font-size:18px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:18px;"><B>11.Drive</B></SPAN></SPAN></DIV></div>
 
 ## Tour
 
