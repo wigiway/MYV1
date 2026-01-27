@@ -1,6 +1,30 @@
 @font-face {
-   font-family: "Bahnschrift";
-   src: url("fonts/Bahnschrift.woff2") format("woff2");
+   font-family: "Prompt Light";
+   src: url("fonts/Prompt-Light.woff2") format("woff2");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Prompt Medium";
+   src: url("fonts/Prompt-Medium.woff2") format("woff2");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Prompt SemiBold";
+   src: url("fonts/Prompt-SemiBold.woff2") format("woff2");
+   font-weight: bold;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Prompt Bold";
+   src: url("fonts/Prompt Bold Bold Italic.woff2") format("woff2");
+   font-weight: bold;
+   font-style: italic;
+}
+@font-face {
+   font-family: "Kanit Medium";
+   src: url("fonts/Kanit Medium.woff2") format("woff2");
    font-weight: normal;
    font-style: normal;
 }
