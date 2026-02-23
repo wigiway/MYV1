@@ -6,18 +6,18 @@
     <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <script src="lib/tdvplayer.js?v=1771406574207"></script>
-    <link rel="preload" href="locale/en.txt?v=1771406574207" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1771406574207" as="script"/>
-	<link rel="preload" href="media/panorama_671EDA85_7007_3B1D_41D6_0495BA2D5EA4_0/r/2/0_0.webp?v=1771406574207" as="image"/>
-	<link rel="preload" href="media/panorama_671EDA85_7007_3B1D_41D6_0495BA2D5EA4_0/l/2/0_0.webp?v=1771406574207" as="image"/>
-	<link rel="preload" href="media/panorama_671EDA85_7007_3B1D_41D6_0495BA2D5EA4_0/u/2/0_0.webp?v=1771406574207" as="image"/>
-	<link rel="preload" href="media/panorama_671EDA85_7007_3B1D_41D6_0495BA2D5EA4_0/d/2/0_0.webp?v=1771406574207" as="image"/>
-	<link rel="preload" href="media/panorama_671EDA85_7007_3B1D_41D6_0495BA2D5EA4_0/f/2/0_0.webp?v=1771406574207" as="image"/>
-	<link rel="preload" href="media/panorama_671EDA85_7007_3B1D_41D6_0495BA2D5EA4_0/b/2/0_0.webp?v=1771406574207" as="image"/>
+    <script src="lib/tdvplayer.js?v=1771823692255"></script>
+    <link rel="preload" href="locale/en.txt?v=1771823692255" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1771823692255" as="script"/>
+	<link rel="preload" href="media/panorama_671EDA85_7007_3B1D_41D6_0495BA2D5EA4_0/r/2/0_0.webp?v=1771823692255" as="image"/>
+	<link rel="preload" href="media/panorama_671EDA85_7007_3B1D_41D6_0495BA2D5EA4_0/l/2/0_0.webp?v=1771823692255" as="image"/>
+	<link rel="preload" href="media/panorama_671EDA85_7007_3B1D_41D6_0495BA2D5EA4_0/u/2/0_0.webp?v=1771823692255" as="image"/>
+	<link rel="preload" href="media/panorama_671EDA85_7007_3B1D_41D6_0495BA2D5EA4_0/d/2/0_0.webp?v=1771823692255" as="image"/>
+	<link rel="preload" href="media/panorama_671EDA85_7007_3B1D_41D6_0495BA2D5EA4_0/f/2/0_0.webp?v=1771823692255" as="image"/>
+	<link rel="preload" href="media/panorama_671EDA85_7007_3B1D_41D6_0495BA2D5EA4_0/b/2/0_0.webp?v=1771823692255" as="image"/>
 	<meta name="description" content="Virtual Tour"/>
 	<meta name="theme-color" content="#FFFFFF"/>
-    <script src="script.js?v=1771406574207"></script>
+    <script src="script.js?v=1771823692255"></script>
     <style type="text/css">
         html, body { height:100%; width:100%; height:100vh; width:100vw; margin:0; padding:0; overflow:hidden; }
         .fill-viewport { position:fixed; top:0; left:0; right:0; bottom:0; padding:0; margin:0; overflow: hidden; }
@@ -25,11 +25,47 @@
 		.fill-viewport.landscape-right { right: env(safe-area-inset-right); }
         #viewer { z-index:1; }
         #preloadContainer { z-index:2; opacity:0; background-color:rgba(255,255,255,1); transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
+        /* บังคับเล่นแนวนอนบนมือถือ */
+        #orientationOverlay { display:none; position:fixed; top:0; left:0; right:0; bottom:0; z-index:9999; background:rgba(0,0,0,0.92); flex-direction:column; justify-content:center; align-items:center; padding:20px; box-sizing:border-box; }
+        #orientationOverlay.portrait-warning { display:flex; }
+        #orientationOverlay .rotate-icon { width:80px; height:80px; margin-bottom:20px; color:#fff; animation: rotate-to-landscape 2s ease-in-out infinite; }
+        @keyframes rotate-to-landscape { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-90deg); } }
+        #orientationOverlay .message { color:#fff; font-size:18px; font-family:Arial,Helvetica,sans-serif; text-align:center; line-height:1.4; max-width:280px; }
     </style>
-    <link rel="stylesheet" href="fonts.css?v=1771406574207">
+    <link rel="stylesheet" href="fonts.css?v=1771823692255">
 </head>
 <body>
     <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; overflow: hidden; left: 0%; top: 50%; width: 100.00%; height: 10.00%" ><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:1.6666666666666663vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-size:1.67vmin;font-family:Arial, Helvetica, sans-serif;">Loading virtual tour. Please wait...</SPAN></DIV></div></div></div>
     <div id="viewer" class="fill-viewport"></div>
+    <div id="orientationOverlay" aria-hidden="true">
+        <svg class="rotate-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+            <line x1="12" y1="18" x2="12.01" y2="18"/>
+        </svg>
+        <p class="message">กรุณาหมุนหน้าจอเป็นแนวนอน</p>
+    </div>
+    <script>
+    (function(){
+        var overlay = document.getElementById('orientationOverlay');
+        function isMobile() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+                || (navigator.maxTouchPoints && window.innerWidth <= 768);
+        }
+        function isPortrait() { return window.innerHeight > window.innerWidth; }
+        function checkOrientation() {
+            if (!overlay) return;
+            if (isMobile() && isPortrait()) {
+                overlay.classList.add('portrait-warning');
+                overlay.setAttribute('aria-hidden', 'false');
+            } else {
+                overlay.classList.remove('portrait-warning');
+                overlay.setAttribute('aria-hidden', 'true');
+            }
+        }
+        checkOrientation();
+        window.addEventListener('orientationchange', function() { setTimeout(checkOrientation, 100); });
+        window.addEventListener('resize', checkOrientation);
+    })();
+    </script>
 </body>
 </html>
