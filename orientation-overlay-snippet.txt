@@ -43,4 +43,12 @@
     })();
     </script>
 
+--- 3) เต็มจอ + manifest (หลัง build ใหม่ ให้ใส่ใน index.htm และเก็บไฟล์ manifest.json ในโฟลเดอร์เดียวกัน) ---
+- ใน <head>: เพิ่ม <meta name="apple-mobile-web-app-title" content="Virtual Tour"/> และ <link rel="manifest" href="manifest.json"/>
+- ใน html,body CSS: เพิ่ม height:100dvh (หลัง 100vh)
+- CSS ปุ่ม: #fullscreenBtn + #fullscreenBtn.mobile-visible (ดูจาก index.htm ปัจจุบัน)
+- HTML: <button id="fullscreenBtn">เต็มจอ</button>
+- Script: รวม fullscreen request/exit + แสดงปุ่มเมื่อมือถือแนวนอน (ดูจาก index.htm ปัจจุบัน)
+- ไฟล์ manifest.json ต้องอยู่ที่โฟลเดอร์เดียวกับ index.htm
+
 --- จบ ---
