@@ -1,0 +1,46 @@
+=== โค้ดบังคับเล่นแนวนอนบนมือถือ (สำหรับใส่ใน index.htm หลัง build 3dvista ใหม่) ===
+เก็บไว้ในโฟลเดอร์โปรเจกต์ เมื่อ build ใหม่แล้วบอก แล้วจะเอาไปใส่ใน index.htm ล่าสุดให้
+
+--- 1) CSS (ใส่ก่อน </style> ใน <head>) ---
+
+        /* บังคับเล่นแนวนอนบนมือถือ */
+        #orientationOverlay { display:none; position:fixed; top:0; left:0; right:0; bottom:0; z-index:9999; background:rgba(0,0,0,0.92); flex-direction:column; justify-content:center; align-items:center; padding:20px; box-sizing:border-box; }
+        #orientationOverlay.portrait-warning { display:flex; }
+        #orientationOverlay .rotate-icon { width:80px; height:80px; margin-bottom:20px; color:#fff; animation: rotate-to-landscape 2s ease-in-out infinite; }
+        @keyframes rotate-to-landscape { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-90deg); } }
+        #orientationOverlay .message { color:#fff; font-size:18px; font-family:Arial,Helvetica,sans-serif; text-align:center; line-height:1.4; max-width:280px; }
+
+--- 2) HTML (ใส่หลัง <div id="viewer" class="fill-viewport"></div> ก่อน </body>) ---
+
+    <div id="orientationOverlay" aria-hidden="true">
+        <svg class="rotate-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+            <line x1="12" y1="18" x2="12.01" y2="18"/>
+        </svg>
+        <p class="message">กรุณาหมุนหน้าจอเป็นแนวนอน</p>
+    </div>
+    <script>
+    (function(){
+        var overlay = document.getElementById('orientationOverlay');
+        function isMobile() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+                || (navigator.maxTouchPoints && window.innerWidth <= 768);
+        }
+        function isPortrait() { return window.innerHeight > window.innerWidth; }
+        function checkOrientation() {
+            if (!overlay) return;
+            if (isMobile() && isPortrait()) {
+                overlay.classList.add('portrait-warning');
+                overlay.setAttribute('aria-hidden', 'false');
+            } else {
+                overlay.classList.remove('portrait-warning');
+                overlay.setAttribute('aria-hidden', 'true');
+            }
+        }
+        checkOrientation();
+        window.addEventListener('orientationchange', function() { setTimeout(checkOrientation, 100); });
+        window.addEventListener('resize', checkOrientation);
+    })();
+    </script>
+
+--- จบ ---
