@@ -51,4 +51,9 @@
 - Script: รวม fullscreen request/exit + แสดงปุ่มเมื่อมือถือแนวนอน (ดูจาก index.htm ปัจจุบัน)
 - ไฟล์ manifest.json ต้องอยู่ที่โฟลเดอร์เดียวกับ index.htm
 
+--- 4) ปุ่มปิด/เปิดเสียง (หลัง build ใหม่) ---
+- เก็บไฟล์ mute-button.js ไว้ในโฟลเดอร์เดียวกับ index.htm
+- ใน index.htm ก่อน </body> ให้เพิ่ม: <script src="mute-button.js"></script>
+- ปุ่มจะโผล่มุมขวาล่างหลังโหลดหน้า ~1.2 วินาที
+
 --- จบ ---
