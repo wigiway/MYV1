@@ -1,4 +1,10 @@
 @font-face {
+   font-family: "DB Ozone X";
+   src: url("fonts/DBOzoneX.woff2") format("woff2");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
    font-family: "Prompt Light";
    src: url("fonts/Prompt-Light.woff2") format("woff2");
    font-weight: normal;
@@ -21,6 +27,18 @@
    src: url("fonts/Prompt Bold Bold Italic.woff2") format("woff2");
    font-weight: bold;
    font-style: italic;
+}
+@font-face {
+   font-family: "Frutiger LT Std 57 Cn";
+   src: url("fonts/FrutigerLTStd-Cn.woff2") format("woff2");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Frutiger LT Std 57 Cn";
+   src: url("fonts/FrutigerLTStd-BlackCn.woff2") format("woff2");
+   font-weight: normal;
+   font-style: normal;
 }
 @font-face {
    font-family: "Kanit Medium";
